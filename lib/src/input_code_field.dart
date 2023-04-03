@@ -501,4 +501,15 @@ class _InputCodeFieldState extends State<InputCodeField>
   void showToolbar() {
     // TODO: implement showToolbar
   }
+
+  @override
+  void didChangeInputControl(
+      TextInputControl? oldControl, TextInputControl? newControl) {
+    // TODO: implement didChangeInputControl
+  }
+
+  @override
+  void performSelector(String selectorName) {
+    // TODO: implement performSelector
+  }
 }
